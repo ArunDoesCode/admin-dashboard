@@ -70,7 +70,32 @@ a{
       }
     }
   }
+}
 
+.table {
+  border-collapse:collapse;
+  width: 100%;
+  th, td{
+    padding: 8px;
+    text-align: left;
+    vertical-align: middle;
+  }
+  th{
+    font-weight: bold;
+    color: black;
+    font-size: 1.1rem;
+    font-weight: 400;
+    padding: 2rem 1rem;
+  }
+  tbody{
+    tr{
+        box-shadow: 0px 1px 1px rgba(0,0 ,0, 0.1);
+
+    }
+    td{
+      padding: 1rem;
+    }
+  }
 }
 
 
